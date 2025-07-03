@@ -2,3 +2,48 @@
   background: #f5f5f5;
   padding: 83px 0;
 }
+
+.pricing__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 79px;
+}
+
+.pricing__list-wrapper {
+  display: flex;
+  gap: 30px;
+}
+.pricing__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.pricing__item {
+  width: 370px;
+  background: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+}
+.pricing__item p {
+  color: #86878b;
+}
+.pricing__item--black {
+  background: #333333;
+}
+.pricing__item--black p {
+  color: #fff;
+}
+.pricing__item--black p:first-letter {
+  text-transform: uppercase;
+}
+.pricing__item--number p {
+  font-size: 36px;
+  font-weight: 700;
+}
+.pricing__item--title p {
+  font-family: "Open Sans";
+  font-size: 24px;
+}
+.pricing__item--availability p {
+  color: #ffffff80;
+}
