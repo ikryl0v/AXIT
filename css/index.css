@@ -1,0 +1,27 @@
+@import url("../css/cdn.css");
+@import url("../css/title.css");
+@import url("../css/awesome.css");
+@import url("../css/pricing.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+html {
+  font-family: "Raleway", "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+}
