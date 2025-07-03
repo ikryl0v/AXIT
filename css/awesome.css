@@ -11,18 +11,18 @@
   align-items: center;
 }
 
-.card-list {
+.awesome__cards {
   display: flex;
   gap: 27px;
 }
-.card-list__item {
+.awesome__card {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
   width: 360px;
 }
-.card-list__item-icon {
+.awesome__card-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,16 +32,16 @@
   border: 1px solid #ec7979;
   border-radius: 50%;
 }
-.card-list__item-icon i {
+.awesome__card-icon i {
   color: #ec7979;
   font-size: 60px;
 }
 
-.card-list__item-title {
+.awesome__card-title-wrapper {
   font-family: "Open Sans";
   font-size: 24px;
   margin-bottom: 6px;
 }
-.card-list__item-text {
+.awesome__card-text {
   text-align: center;
 }
