@@ -13,6 +13,8 @@
 .pricing__list-wrapper {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .pricing__list {
   display: flex;
