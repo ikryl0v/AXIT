@@ -1,12 +1,15 @@
 .title-wrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 40px;
 }
 .title-wrapper__title {
-  text-align: center;
   text-transform: uppercase;
   font-size: 36px;
+}
+.title-wrapper__title--white {
+  color: #fff;
 }
 .title-wrapper__title::after {
   content: "";
@@ -15,7 +18,13 @@
   border-bottom: 1px solid #ec7979;
   margin: 40px auto 0;
 }
+.title-wrapper__title--white::after {
+  border-color: #fff;
+}
 .title-wrapper__some-text p {
   color: #86878b;
   text-align: center;
+}
+.title-wrapper__some-text--white p {
+  color: #fff;
 }
