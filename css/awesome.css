@@ -13,8 +13,9 @@
 
 .awesome__cards {
   display: flex;
-  gap: 27px;
-  justify-content: center;
+  gap: 15px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .awesome__card {

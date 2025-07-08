@@ -1,0 +1,43 @@
+.banner {
+  position: relative;
+  padding: 137px 0;
+  background: url("../img/banner-bg.jpg") center center/cover no-repeat;
+}
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.banner__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.banner-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 70px;
+  width: 55%;
+}
+.banner__logo {
+  font-size: 55px;
+}
+
+.banner__download-link a {
+  padding: 13px 47px;
+}
+
+.banner-form {
+  width: 398px;
+  height: 450px;
+  background: #fff;
+}

@@ -30,17 +30,20 @@
 .download-link:active {
   border-color: #ab4949;
 }
+.picture__download-link a {
+  padding: 15px 130px;
+}
 .download-link a {
   display: block;
-  padding: 15px 130px;
+
   font-family: "Open sans";
   width: 100%;
   color: #fff;
   transition: 0.3s ease-in-out;
 }
-.download a:hover {
+.download-link a:hover {
   color: #ec7979;
 }
-.download a:active {
+.download-link a:active {
   color: #ab4949;
 }

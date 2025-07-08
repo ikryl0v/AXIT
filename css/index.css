@@ -2,14 +2,15 @@
 @import url("../css/cdn.css");
 @import url("../css/title.css");
 @import url("../css/header.css");
+@import url("../css/banner.css");
 @import url("../css/awesome.css");
 @import url("../css/pricing.css");
 @import url("../css/picture.css");
+@import url("../css/reviews.css");
 
 html {
   font-family: "Raleway", "Open Sans", sans-serif;
   font-size: 18px;
-  background: #000;
 }
 
 .container {
@@ -19,7 +20,9 @@ html {
   margin: auto;
   z-index: 10;
 }
+
 .logo a {
+  font-size: "Open sans";
   color: #fff;
 }
 .logo a::after {

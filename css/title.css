@@ -4,9 +4,22 @@
   align-items: center;
   gap: 40px;
 }
+.title-wrapper--banner {
+  align-items: flex-start;
+}
 .title-wrapper__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-transform: uppercase;
+  gap: 40px;
   font-size: 36px;
+  text-align: center;
+}
+.title-wrapper h1 {
+  text-align: start;
+  align-items: start;
+  font-size: 48px;
 }
 .title-wrapper__title--white {
   color: #fff;
@@ -16,7 +29,6 @@
   display: block;
   width: 170px;
   border-bottom: 1px solid #ec7979;
-  margin: 40px auto 0;
 }
 .title-wrapper__title--white::after {
   border-color: #fff;

@@ -1,0 +1,75 @@
+.reviews {
+  padding: 57px 0;
+}
+
+.reviews__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.reviews__items {
+  display: flex;
+  gap: 30px;
+}
+.reviews__item {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+.reviews__feedback {
+  position: relative;
+  text-align: center;
+  background: #e2e2e2;
+  padding: 38px 25px;
+  border-radius: 5%;
+  z-index: 5;
+}
+.reviews__feedback::before {
+  position: absolute;
+  content: "";
+  bottom: -30px;
+  left: 15%;
+  border: 15px solid transparent;
+  border-top: 20px solid #e2e2e2;
+  z-index: 0;
+}
+.reviews__feedback p {
+  color: #86878b;
+}
+.reviews__person {
+  display: grid;
+  grid-template-areas:
+    "photo name name name"
+    "photo post post post";
+  gap: 20px;
+  align-items: center;
+}
+.reviews__person::before {
+  grid-area: photo;
+  right: 50%;
+  content: "";
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+[data-name="davisMadsen"]::before {
+  background: url("../img/persone-davis.png") center center/cover no-repeat;
+}
+[data-name="cooperDorwart"]::before {
+  background: url("../img/persone-cooper.png") center center/cover no-repeat;
+}
+[data-name="jaydonRosser"]::before {
+  background: url("../img/persone-jaydon.png") center center/cover no-repeat;
+}
+.reviews__person-name {
+  grid-area: name;
+}
+.reviews__person-name p {
+  font-family: "Open sans";
+  font-size: 24px;
+}
+.reviews__person-post {
+  grid-area: post;
+}
