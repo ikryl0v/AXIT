@@ -11,8 +11,11 @@
 .reviews__items {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .reviews__item {
+  max-width: 360px;
   display: flex;
   flex-direction: column;
   gap: 66px;
@@ -42,16 +45,16 @@
   grid-template-areas:
     "photo name name name"
     "photo post post post";
-  gap: 20px;
-  align-items: center;
+  row-gap: 20px;
+  justify-content: space-between;
 }
 .reviews__person::before {
   grid-area: photo;
-  right: 50%;
   content: "";
   width: 70px;
   height: 70px;
   border-radius: 50%;
+  align-self: center;
 }
 
 [data-name="davisMadsen"]::before {
