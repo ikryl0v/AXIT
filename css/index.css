@@ -1,11 +1,12 @@
 @import url("../css/rest.css");
 @import url("../css/cdn.css");
 @import url("../css/title.css");
+@import url("../css/download-link.css");
 @import url("../css/header.css");
 @import url("../css/banner.css");
 @import url("../css/awesome.css");
 @import url("../css/pricing.css");
-@import url("../css/picture.css");
+@import url("../css/cta.css");
 @import url("../css/reviews.css");
 
 html {

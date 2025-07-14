@@ -1,0 +1,35 @@
+.download-link {
+  text-align: center;
+  border: 2px solid #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.download-link__btn {
+  padding: 13px 47px;
+  display: block;
+  font-family: "Open sans";
+  width: 100%;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.download-link:hover {
+  border-color: #ec7979;
+  transform: scale(1.02);
+}
+.download-link:active {
+  border-color: #ab4949;
+  transform: scale(0.95);
+}
+
+.download-link_size-large .download-link__btn {
+  padding: 15px 130px;
+}
+.download-link__btn:hover {
+  color: #ec7979;
+  transform: scale(1.02);
+}
+.download-link__btn:active {
+  color: #ab4949;
+  transform: scale(0.95);
+}

@@ -11,13 +11,9 @@
   justify-content: space-between;
   align-items: center;
 }
-.header__logo {
-  width: 50%;
-}
-.header__logo a {
+.logo__link {
   font-size: 31px;
 }
-
 .nav {
   width: 50%;
 }
@@ -28,15 +24,15 @@
   flex-wrap: wrap;
 }
 
-.nav__item a {
+.nav__link {
   color: #fff;
   font-family: "Open Sans";
   font-size: 14px;
   transition: 0.3s ease-in-out;
 }
-.nav__item a:hover {
+.nav__link:hover {
   color: #ec7979;
 }
-.nav__item a:active {
+.nav__link:active {
   color: #ab4949;
 }

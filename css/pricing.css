@@ -10,49 +10,47 @@
   align-items: center;
 }
 
-.pricing__list-wrapper {
+.pricing__plans {
   display: flex;
   gap: 15px;
   justify-content: center;
   flex-wrap: wrap;
 }
-.pricing__list {
+.pricing-plan {
   display: flex;
   flex-direction: column;
   gap: 1px;
   transition: 0.3s ease-in-out;
+  max-width: 370px;
+  text-align: center;
+  color: #fff;
 }
-.pricing__list:hover {
+.pricing-plan:hover {
   filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
   transform: translateY(-20px);
 }
-.pricing__item {
-  width: 370px;
-  background: #fff;
-  text-align: center;
-  padding: 15px 0;
-}
 
-.pricing__item p {
-  color: #86878b;
-}
-.pricing__item--black {
+.pricing-plan__header {
+  padding: 15px 0;
   background: #333333;
 }
-.pricing__item--black p {
-  color: #fff;
-}
-.pricing__item--black p:first-letter {
-  text-transform: uppercase;
-}
-.pricing__item--number p {
-  font-size: 36px;
-  font-weight: 700;
-}
-.pricing__item--title p {
+.pricing-plan__title {
   font-family: "Open Sans";
   font-size: 24px;
 }
-.pricing__item--availability p {
-  color: #ffffff80;
+.pricing-plan__price {
+  font-size: 36px;
+  font-weight: 700;
+  background: #333333;
+  padding: 15px 0;
+}
+.pricing-plan__period {
+  color: #86878b;
+  background: #333333;
+  padding: 15px 0;
+}
+.pricing-plan__feature {
+  background: #fff;
+  color: #86878b;
+  padding: 15px 130px;
 }

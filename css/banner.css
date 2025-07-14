@@ -1,7 +1,7 @@
 .banner {
   position: relative;
   padding: 137px 0;
-  background: url("../img/banner-bg.jpg") center center/cover no-repeat;
+  background: url("../img/banner-bg.jpg") center center/cover no-repeat fixed;
 }
 .banner::after {
   content: "";
@@ -20,7 +20,7 @@
   align-items: center;
   gap: 50px;
 }
-.banner-info {
+.banner__info {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -28,16 +28,16 @@
   gap: 70px;
   width: 55%;
 }
-.banner__logo {
-  font-size: 55px;
-}
-
 .banner__download-link a {
   padding: 13px 47px;
 }
 
-.banner-form {
+.banner__form {
   width: 398px;
   height: 450px;
   background: #fff;
+}
+
+.logo_size-large .logo__link {
+  font-size: 55px;
 }

@@ -10,22 +10,20 @@
   justify-content: center;
   align-items: center;
 }
-
-.awesome__cards {
+.awesome__list {
   display: flex;
   gap: 15px;
   justify-content: center;
   flex-wrap: wrap;
 }
-
-.awesome__card {
+.awesome-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  width: 370px;
+  max-width: 370px;
 }
-.awesome__card-icon {
+.awesome-card__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,17 +34,17 @@
   border-radius: 50%;
 }
 
-.awesome__card-icon i {
+.awesome-card__icon i {
   color: #ec7979;
   font-size: 60px;
 }
 
-.awesome__card-title {
+.awesome-card__title {
   font-family: "Open Sans";
   font-size: 24px;
   margin-bottom: 6px;
 }
 
-.awesome__card-text {
+.awesome-card-text {
   text-align: center;
 }

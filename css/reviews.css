@@ -1,34 +1,35 @@
 .reviews {
-  padding: 57px 0;
+  padding: 107px 0;
 }
 
 .reviews__wrapper {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 83px;
 }
 
-.reviews__items {
+.reviews__list {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
 }
-.reviews__item {
+.review-card {
   max-width: 360px;
   display: flex;
   flex-direction: column;
   gap: 66px;
 }
-.reviews__feedback {
+.review-card__text {
   position: relative;
   text-align: center;
   background: #e2e2e2;
   padding: 38px 25px;
   border-radius: 5%;
   z-index: 5;
+  color: #86878b;
 }
-.reviews__feedback::before {
+.review-card__text::before {
   position: absolute;
   content: "";
   bottom: -30px;
@@ -37,24 +38,24 @@
   border-top: 20px solid #e2e2e2;
   z-index: 0;
 }
-.reviews__feedback p {
-  color: #86878b;
-}
-.reviews__person {
+
+.review-card__author {
   display: grid;
   grid-template-areas:
     "photo name name name"
     "photo post post post";
-  row-gap: 20px;
-  justify-content: space-between;
+  column-gap: 30px;
+  row-gap: 18px;
+  justify-content: flex-start;
+  align-items: center;
 }
-.reviews__person::before {
+.review-card__author::before {
   grid-area: photo;
   content: "";
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  align-self: center;
+  align-self: end;
 }
 
 [data-name="davisMadsen"]::before {
@@ -66,13 +67,11 @@
 [data-name="jaydonRosser"]::before {
   background: url("../img/persone-jaydon.png") center center/cover no-repeat;
 }
-.reviews__person-name {
-  grid-area: name;
-}
-.reviews__person-name p {
+.review-card__name {
   font-family: "Open sans";
   font-size: 24px;
+  grid-area: name;
 }
-.reviews__person-post {
+.review-card__position {
   grid-area: post;
 }
